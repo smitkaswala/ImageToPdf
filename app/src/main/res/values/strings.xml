@@ -1,0 +1,179 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">ImageToPdf</string>
+    <string name="image_to_pdf_n_converter">Image to PDF \n Converter</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="image_to_pdf">Image to PDF</string>
+
+    <string name="viewfiles_addwatermark">1. Select the PDF you wish to add watermark to. \n2. Select Add Watermark. \n3. Fill the required information. Select OK. \n4. New PDF with watermark will be created.</string>
+    <string name="viewfiles_removepassword">1. Select the PDF you wish to remove password from. \n2. Select Remove Password. \n3. Type PDF password. Select OK. \n4. New PDF without PDF will be created.</string>
+    <string name="viewfiles_addpassword">1. Select the PDF you wish to add password to. \n2. Select Add Password. \n3. Type new password. Select OK. \n4. New PDF with password be created.</string>
+    <string name="viewfiles_rotatepages">1. Select the PDF you wish to rotate. \n2. Select Rotate Pages. \n3. Select angle of rotation. Select OK. \n4. New rotated PDF will be created.</string>
+    <string name="overwrite_message">There already exists a file with the same name. Do you want to overwrite?</string>
+    <string name="error_open_file">An error occurred while opening the file. Please try reopening</string>
+    <string name="error_path_not_found">Sorry, we are unable to access the file at this location</string>
+    <string name="i_have_attached_pdfs_to_this_message">I have attached file(s) to this message</string>
+    <string name="snackbar_folder_not_created">Error on creating application folder.</string>
+    <!--  Extract Text-->
+    <string name="extract_text">Extract Text</string>
+    <string name="pdf_selected">PDF file selected: </string>
+    <string name="file_info">\n  File Name : %1$s \n\n  Path : %2$s \n\n  Size : %3$s \n\n  Date Modified %4$s</string>
+
+    <string name="file_name_text">File Name</string>
+    <string name="select_images_text">Select Images</string>
+    <string name="password_protect_pdf_text">Password Protect PDF</string>
+    <string name="edit_images_text">Edit Images</string>
+    <string name="open_pdf_text">Open PDF</string>
+    <string name="create_pdf_text">Create PDF</string>
+    <string name="details"><b>Details</b></string>
+    <string name="search_hint">Name of file</string>
+    <string name="search">search</string>
+    <string name="default_content_description">no description</string>
+    <string name="prompt_input">Enter here</string>
+    <string name="viewFiles">View Files</string>
+
+    <!-- Directory Strings -->
+    <string name="directory">Directory</string>
+    <string name="moving_files">Moving your files</string>
+    <string name="success_move">Successfully moved your files</string>
+    <string name="dir_does_not_exists">Directory does not exist</string>
+    <string name="move_files_delete_dir">Moving files and deleting the directory</string>
+    <string name="directory_deleted">Directory deleted</string>
+    <string name="success_delete_directory">Successfully deleted the directory</string>
+    <string name="moved_files">Files successfully moved</string>
+    <string name="dialog_new_dir">Enter new directory name</string>
+    <string name="dialog_dir">Enter the directory name</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="select_all">Select All</string>
+    <string name="converting_file_message">Converting your files to PDF.</string>
+    <string name="select_text_file">Select Text File</string>
+    <string name="install_file_manager">Please install a File Manager</string>
+
+    <string name="remove_pages">Remove Pages</string>
+    <string name="remove_pages_error">The input value is not valid</string>
+    <string name="encrypted_pdf">PDF is password protected</string>
+    <string name="file_access_error">We were unable to access PDF. Files may be encrypted or in the external storage.</string>
+    <string name="file_order">No changes made in the file</string>
+
+    <string name="msg_save_image">Are you want to discard without saving image ?</string>
+    <string name="snackbar_password_cannot_be_blank">Password cannot be blank</string>
+    <string name="snackbar_file_not_renamed">File can\'t be renamed.</string>
+    <string name="pdf_type" translatable="false">application/pdf</string>
+    <string name="snackbar_name_not_blank">Name cannot be blank</string>
+    <string name="image_selected_blank">No Images Selected</string>
+    <string name="snackbar_no_pdf_app">No app to read PDF File</string>
+    <string name="share_chooser">Select app to send message…</string>
+    <string name="images_selected"> %1$d image(s) selected.</string>
+    <string name="txt_type" translatable="false">text/*</string>
+    <string name="snackbar_file_renamed">File renamed.</string>
+    <string name="snackbar_images_added">Images added</string>
+    <string name="pdf_ext" translatable="false">.pdf</string>
+    <string name="snackbar_pdfCreated">PDF created!</string>
+    <string name="password_remove">Password Removed</string>
+    <string name="merge_file_select">Select a file</string>
+    <string name="enter_file_name">Enter file name</string>
+    <string name="filter_file_name">%s_%s.jpg</string>
+    <string name="set_password">Set Password</string>
+    <string name="remove_dialog">REMOVE</string>
+    <string name="creating_pdf">Creating PDF</string>
+    <string name="snackbar_viewAction">View</string>
+    <string name="edit_images">Edit Images</string>
+    <string name="_0_selected">0 Selected</string>
+    <string name="descending">Descending</string>
+    <string name="example">Example : abc</string>
+    <string name="open_file">Open File</string>
+    <string name="warning">Warning</string>
+    <string name="renamed">Renamed</string>
+    <string name="created">Created</string>
+    <string name="rotate_pages">Rotate Pages</string>
+    <string name="rotated">Rotated</string>
+
+
+    <string name="enter_rotation_angle">Enter Rotation Angle</string>
+    <string name="rotated_file_name" translatable="false">%s_rotated_%s%s</string>
+    <string name="degree_90" translatable="false">90 &#xb0;</string>
+    <string name="degree_180" translatable="false">180 &#xb0;</string>
+    <string name="degree_270" translatable="false">270 &#xb0;</string>
+
+    <string name="enter_password_custom">Enter Password</string>
+    <string name="example_pass_123">password@123</string>
+
+    <!--file name suffix-->
+    <string name="pdf_suffix" translatable="false" tools:ignore="DuplicateDefinition">_pdf</string>
+    <string name="snackbar_undoAction">Undo</string>
+    <string name="reordering_pages_dialog">Reordering your pages...</string>
+    <string name="delete_alert_singular">Do you want to delete selected file?</string>
+    <string name="snackbar_files_deleted">Files Deleted</string>
+    <string name="lbl_recently_used">Recently Used Features</string>
+    <string name="snackbar_file_deleted">File deleted.</string>
+    <string name="snackbar_file_not_deleted">File can\'t be deleted.</string>
+
+    <!--View File options    -->
+    <string name="delete_alert_selected">Do you want to delete all selected files?</string>
+    <string name="sort_by_title">Sort by</string>
+    <string name="delete">Delete</string>
+    <string name="deleted">Deleted</string>
+    <string name="sort">Sort</string>
+
+    <!--  Text To PDF -Set Page Size-->
+    <string name="set_page_size_text">Set Page Size</string>
+    <string name="b0_to_b10">B0 to B10</string>
+    <string name="a0_to_a10">A0 to A10</string>
+    <string name="tabloid" translatable="false">TABLOID</string>
+    <string name="executive" translatable="false">EXECUTIVE</string>
+    <string name="ledger" translatable="false">LEDGER</string>
+    <string name="letter" translatable="false">LETTER</string>
+    <string name="legal" translatable="false">LEGAL</string>
+    <string name="a4" translatable="false">A4</string>
+    <string name="default_page_size">DEFAULT ( %s )</string>
+    <string name="master_password_changed">The password seems to be incorrect. May be, you have changed the master password.</string>
+
+    <string name="set_as_default">Set as default</string>
+
+    <string-array name="array_page_sizes_b0_b10" translatable="false">
+        <item>B0 (1000 x 1414 mm)</item>
+        <item>B1 (707 x 1000 mm)</item>
+        <item>B2 (500 x 707 mm)</item>
+        <item>B3 (353 x 500 mm)</item>
+        <item>B4 (250 x 353 mm)</item>
+        <item>B5 (176 x 250 mm)</item>
+        <item>B6 (125 x 176 mm)</item>
+        <item>B7 (88 x 125 mm)</item>
+        <item>B8 (62 x 88 mm)</item>
+        <item>B9 (44 x 62 mm)</item>
+        <item>B10 (31 x 44 mm)</item>
+    </string-array>
+
+    <string-array name="array_page_sizes_a0_b10" translatable="false">
+        <item>A0 (841 x 1189 mm)</item>
+        <item>A1 (594 x 841 mm)</item>
+        <item>A2 (420 x 594 mm)</item>
+        <item>A3 (297 x 420 mm)</item>
+        <item>A4 (210 x 297 mm)</item>
+        <item>A5 (148 x 210 mm)</item>
+        <item>A6 (105 x 148 mm)</item>
+        <item>A7 (74 x 105 mm)</item>
+        <item>A8 (52 x 74 mm)</item>
+        <item>A9 (37 x 52 mm)</item>
+        <item>A10 (26 x 37 mm)</item>
+    </string-array>
+
+    <!--  set Image Scale type  -->
+    <string name="image_scale_type">Set Image Scale Type</string>
+    <string name="stretch_image">Stretch image to fit on page</string>
+    <string name="maintain_aspect_ratio">Maintain aspect ratio of images</string>
+
+    <string-array name="Quality">
+        <item></item>
+        <item> Original </item>
+        <item></item>
+        <item> Medium </item>
+        <item></item>
+        <item> Low </item>
+        <item></item>
+    </string-array>
+
+
+</resources>

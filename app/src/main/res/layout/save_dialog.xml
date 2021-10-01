@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/bg5"
+            android:fontFamily="@font/inter"
+            android:gravity="center_vertical"
+            android:paddingLeft="25dp"
+            android:text="Create PDF"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/gilroylight"
+                android:gravity="center_vertical"
+                android:paddingLeft="25dp"
+                android:text="PDF File Name"
+                android:textColor="@color/text_color"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edit1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="@font/gilroylight"
+                android:gravity="center_vertical"
+                android:inputType="text"
+                android:textColor="@color/text_color"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:theme="@style/Theme.App.Base" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/add_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/gilroylight"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="25dp"
+                    android:text="Add Password  (Optional)"
+                    android:textColor="@color/text_color"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <Switch
+                    android:id="@+id/switchBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="15dp"
+                    android:thumbTint="@color/blue"
+                    android:trackTint="@color/topRate"
+                    tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            </LinearLayout>
+
+            <!--            <EditText-->
+            <!--                android:id="@+id/edit2"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="40dp"-->
+            <!--                android:textSize="17sp"-->
+            <!--                android:gravity="center_vertical"-->
+            <!--                android:textStyle="bold"-->
+            <!--                android:fontFamily="@font/gilroylight"-->
+            <!--                android:textColor="@color/text_color"-->
+            <!--                android:drawableRight="@drawable/ic_visible"-->
+            <!--                android:layout_marginRight="20dp"-->
+            <!--                android:layout_marginLeft="20dp"-->
+            <!--                android:theme="@style/Theme.App.Base"-->
+            <!--                android:layout_marginBottom="15dp"/>-->
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/passwordlayout"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:visibility="gone"
+                android:theme="@style/Theme.App.Base"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="@color/blue">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:fontFamily="@font/gilroylight"
+                    android:inputType="textPassword"
+                    android:textStyle="bold" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/text_color"
+                    android:gravity="center_vertical"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/gilroylight"
+                    android:textStyle="bold"
+                    android:text="Image Quality" />
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="12sp"
+                    android:layout_weight="1"
+                    android:spinnerMode="dropdown"
+                    android:theme="@style/spinnerThemeView"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
+                android:gravity="end"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/mCancel"
+                    android:layout_width="90dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/bg1"
+                    android:fontFamily="@font/gilroylight"
+                    android:gravity="center"
+                    android:padding="5.0dip"
+                    android:text=" Cancel "
+                    android:textColor="#B0B7C2"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/mOk"
+                    android:layout_width="90dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/bg2"
+                    android:fontFamily="@font/gilroylight"
+                    android:gravity="center"
+                    android:padding="5.0dip"
+                    android:text=" Convert "
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</layout>

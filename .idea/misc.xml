@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ImageToPdf/app/src/main/res/drawable-v24/bg1.xml" value="0.35625" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/drawable-v24/files_divider.xml" value="0.35625" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/drawable-v24/ic_rotate_on.xml" value="0.31851851851851853" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/drawable/bg.xml" value="0.24947916666666667" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/drawable/bg1.xml" value="0.35625" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/drawable/bg2.xml" value="0.35625" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/drawable/bg3.xml" value="0.35625" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/drawable/bg4.xml" value="0.35625" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/drawable/bg5.xml" value="0.35625" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/drawable/bg6.xml" value="0.35625" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/drawable/ic_aa_text.xml" value="0.31851851851851853" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/drawable/ic_aa_text_on.xml" value="0.31851851851851853" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/drawable/ic_add_btn.xml" value="0.35625" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/drawable/ic_arrow.xml" value="0.35625" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/drawable/ic_back.xml" value="0.26197916666666665" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/drawable/ic_background.xml" value="0.35625" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/drawable/ic_bottom_back.xml" value="0.35625" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/drawable/ic_camera.xml" value="0.35625" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/drawable/ic_close.xml" value="0.35625" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/drawable/ic_color.xml" value="0.35625" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/drawable/ic_color_on.xml" value="0.35625" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/drawable/ic_crop.xml" value="0.35625" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/drawable/ic_crop_on.xml" value="0.31851851851851853" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/drawable/ic_done.xml" value="0.26197916666666665" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/drawable/ic_doodle.xml" value="0.31851851851851853" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/drawable/ic_doodle_on.xml" value="0.31851851851851853" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/drawable/ic_group_279576.xml" value="0.35625" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/drawable/ic_home.xml" value="0.215625" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/drawable/ic_home_lite.xml" value="0.24947916666666667" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/drawable/ic_like.xml" value="0.215625" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/drawable/ic_like_done.xml" value="0.24947916666666667" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/drawable/ic_like_donee.xml" value="0.3026041666666667" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/drawable/ic_rotate.xml" value="0.31927083333333334" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/drawable/ic_rotate_on.xml" value="0.31851851851851853" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/drawable/ic_round.xml" value="0.35625" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/drawable/ic_round_done.xml" value="0.35625" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/drawable/ic_text_add.xml" value="0.35625" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/drawable/ic_text_add_on.xml" value="0.35625" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/drawable/ic_text_style.xml" value="0.35625" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/drawable/ic_text_style_on.xml" value="0.35625" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/drawable/textfield_activated.xml" value="0.35625" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/layout/activity_crop.xml" value="0.25" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/layout/activity_edit_image.xml" value="0.25" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/layout/activity_home.xml" value="0.18" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/layout/activity_images.xml" value="0.25" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/layout/activity_list_image.xml" value="0.31614583333333335" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/layout/activity_main.xml" value="0.19186046511627908" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/layout/camera_view.xml" value="0.31614583333333335" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/layout/color_view.xml" value="0.3359375" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/layout/crop_item.xml" value="0.3359375" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/layout/custom_dialogview.xml" value="0.3359375" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/layout/dialog_rotate_pdf.xml" value="0.3359375" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/layout/folder_list_popup.xml" value="0.3359375" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/layout/folder_view.xml" value="0.3359375" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/layout/fragment_home.xml" value="0.21" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/layout/fragment_like.xml" value="0.25" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/layout/image_scale_type_dialog.xml" value="0.3359375" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/layout/image_view.xml" value="0.31614583333333335" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/layout/lottie_anim_dialog.xml" value="0.3359375" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/layout/pdf_details.xml" value="0.3359375" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/layout/pdf_option.xml" value="0.3359375" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/layout/pdf_option_favorite.xml" value="0.3359375" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/layout/pdf_view.xml" value="0.3359375" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/layout/rename_option.xml" value="0.3359375" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/layout/save_dialog.xml" value="0.22" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/layout/set_page_size_dialog.xml" value="0.2604166666666667" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/layout/style_view.xml" value="0.3359375" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/layout/text_dailog.xml" value="0.3359375" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/menu/bottom.xml" value="0.1953125" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/menu/bottomView.xml" value="0.3359375" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/menu/bottom_type.xml" value="0.23645833333333333" />
+        <entry key="..\:/ImageToPdf/app/src/main/res/menu/bottom_view.xml" value="0.23645833333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

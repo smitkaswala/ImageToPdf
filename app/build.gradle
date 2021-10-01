@@ -1,0 +1,95 @@
+
+buildscript {
+    repositories {
+        maven { url "https://jitpack.io" }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.3.0'
+    }
+}
+
+plugins {
+    id 'com.android.application'
+}
+
+android {
+
+    compileSdk 30
+
+    defaultConfig {
+        applicationId "com.example.imagetopdf"
+        minSdk 19
+        targetSdk 30
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        setProperty("archivesBaseName", "Image to PDF-$versionName")
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    buildFeatures {
+        dataBinding true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'androidx.preference:preference:1.1.1'
+    //Navigation Button
+    implementation 'com.google.android.material:material:1.4.0'
+    //circleImage
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    // Image picker, and folder picker
+    implementation 'com.zhihu.android:matisse:0.5.3-beta3'
+    implementation 'lib.kashif:folderpicker:2.4'
+    // Picasso, image editor, image cropper
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'jp.wasabeef:picasso-transformations:2.2.1'
+    implementation 'ja.burhanrashid52:photoeditor:0.2.1'
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.7.0'
+    implementation 'com.balysv:material-ripple:1.0.2'
+    implementation 'com.afollestad.material-dialogs:core:0.9.6.0'
+    implementation 'com.airbnb.android:lottie:3.6.1'
+    //Glide
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+    //GestureImage
+    implementation 'com.alexvasilkov:gesture-views:2.8.1'
+    implementation project(':sticker')
+    implementation 'androidx.room:room-runtime:2.3.0'
+    annotationProcessor 'androidx.room:room-compiler:2.3.0'
+    //Crop
+//    implementation 'com.github.lyrebirdstudio:Croppy:0.2'
+    implementation 'com.github.danielnilsson9:color-picker-view:1.4.0@aar'
+    // Itext pdf library
+    implementation 'com.itextpdf:itextg:5.5.10'
+    implementation 'com.madgag.spongycastle:core:1.58.0.0'
+    //FireBase
+    implementation 'com.google.firebase:firebase-core:19.0.1'
+    //ColorFul
+    implementation 'com.divyanshu.colorseekbar:colorseekbar:1.0.2'
+    implementation 'com.isseiaoki:simplecropview:1.1.8'
+
+}
